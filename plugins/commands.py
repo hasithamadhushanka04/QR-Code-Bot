@@ -4,11 +4,12 @@ from database import db
 
 
 START_TEXT = """**Hello {} 😌
-I am a QR Code Bot**
+I am a QR Code Bot
 
->> `I can generate links to QR Code with QR Code decode to links support.`
+I can generate links to QR Code with QR Code decode to links support.
 
-Made by @FayasNoushad"""
+Send me a link I will generate the QR code of that link
+Send me a QR code image I will decode that image and convert to link**"""
 
 HELP_TEXT = """**Hey, Follow these steps:**
 
@@ -19,24 +20,16 @@ HELP_TEXT = """**Hey, Follow these steps:**
 
 /start - Checking Bot Online
 /help - For more help
-/about - For more about me
 /settings - For bot settings
 /reset - For reset settings
-/status - For bot status
 
-Made by @FayasNoushad"""
+Made by @CloudUpdateslk"""
 
 ABOUT_TEXT = """--**About Me 😎**--
 
 🤖 **Name :** [QR Code Bot](https://telegram.me/{})
 
-👨‍💻 **Developer :** [Fayas](https://github.com/FayasNoushad)
-
-📢 **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
-
-👥 **Group :** [Developer Team](https://telegram.me/TheDeveloperTeam)
-
-🌐 **Source :** [👉 Click here](https://github.com/FayasNoushad/QR-Code-bot)
+📢 **Channel :** [Cloud Updates ☁️](https://t.me/CloudUpdateslk)
 
 📝 **Language :** [Python3](https://python.org)
 
